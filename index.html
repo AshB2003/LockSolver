@@ -1,0 +1,35 @@
+L<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>repl.it</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<h1>
+	<font color="white"> Lock Solver!
+</h1>
+
+<body>
+	<script src="script.js">
+
+	</script>
+	<p1>
+		<font color="magenta"> You are in a hurry! You have to prank your friend by sneaking a fake spider inside his locker but
+			you do not have his locker combination. Fortunately he is stupid and has bought a lock that precisely informs you which
+			part of the combination that you have correct! If a "⚫" appears, that means that you have guessed the correct number and
+			position. If a "⚪" appears, that means that you have guessed the correct number but in the wrong position. Finally, if
+			an "❌" appears, it means that you have not guessed the correct location or the correct number in general for that matter.
+			*NOTE THIS LOCK WILL TELL YOU EXACTLY WHERE IN THE GUESS YOU HAVE IT CORRECT. NOT TO MENTION, YOU ONLY HAVE TEN GUESSES. You can also check your history of guesses in the console!
+	</p1>
+
+	<p1 id="intro"></p1>
+	<p>Enter your guess here:</p>
+	<input type="number" id="guess">
+<button id = "button" onclick = "begin()">Submit</button>
+<p id = "number"></p>
+<p id="check"></p>
+<p2 id = "history"></p2>
+<p3 id = "previous"></p2>
+  </body>
+</html>
